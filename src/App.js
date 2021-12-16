@@ -17,7 +17,7 @@ const App = () => {
 
 const Person = ({ name, age, job, petname, type }) => {
   return (
-    <div>
+    <div className="person">
       <h2>
         Hello my name is {name} and I'm {age}
       </h2>
